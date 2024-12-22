@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicker Game</title>
 </head>
-<style>
+<link rel="stylesheet" href="css/style.css">
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -38,7 +38,7 @@ button {
 button:hover {
     background-color: #45a049;
 }
-</style>
+</link>
 <body>
     <div class="game-container">
         <h1>Clicker Game</h1>
@@ -55,7 +55,7 @@ button:hover {
 <div id="achievementsDisplay"></div>
 
     </div>
-    <script>
+    <script src="js/script.js">
 let score = 0;  // Initial score
 let scoreMultiplier = 1;  // Initial score multiplier
 let clickPoints = 1;  // Points added per click
