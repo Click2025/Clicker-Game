@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicker Game</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <style>
 body {
@@ -56,7 +55,7 @@ button:hover {
 <div id="achievementsDisplay"></div>
 
     </div>
-    <script src="script.js">
+    <script>
 let score = 0;  // Initial score
 let scoreMultiplier = 1;  // Initial score multiplier
 let clickPoints = 1;  // Points added per click
